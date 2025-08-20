@@ -32,6 +32,7 @@ Once your preferred template has been initialized, you can use the provided shel
 | [Bun]                            | [`bun`](./bun/)                       |
 | [C]/[C++]                        | [`c-cpp`](./c-cpp/)                   |
 | [Clojure]                        | [`clojure`](./clojure/)               |
+| Claude Code                      | [`claude-code`](./claude-code/)       |
 | [Cue]                            | [`cue`](./cue/)                       |
 | [Dhall]                          | [`dhall`](./dhall/)                   |
 | [Elixir]                         | [`elixir`](./elixir/)                 |
@@ -98,6 +99,16 @@ The sections below list what each template includes. In all cases, you're free t
 - [Clojure]
 - [Boot]
 - [Leiningen]
+
+### [`claude-code`](./claude-code/)
+
+- [Claude Code]
+
+To use the Claude Code CLI, run the following command:
+
+```shell
+npx @anthropic-ai/claude-code
+```
 
 ### [`cue`](./cue/)
 
@@ -335,6 +346,7 @@ A dev template that's fully customizable.
 [clang-tools]: https://clang.llvm.org
 [clippy]: https://github.com/rust-lang/rust-clippy
 [clojure]: https://clojure.org
+[claude-code]: https://www.anthropic.com/claude-code
 [cmake]: https://cmake.org
 [codespell]: https://github.com/codespell-project/codespell
 [composer]: https://getcomposer.org
