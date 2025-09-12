@@ -1,5 +1,39 @@
 {
   "nodes": {
+    "dendrix": {
+      "inputs": {
+        "import-tree": "import-tree",
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1754236405,
+        "narHash": "sha256-eunVYBmEooAJ7lMYVXKJFhi/GN/WvMkFEpwphKI4bpk=",
+        "owner": "vic",
+        "repo": "dendrix",
+        "rev": "e0bdb9c42ecf5ab8699c6e5f7dfbf92415bf8a89",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vic",
+        "repo": "dendrix",
+        "type": "github"
+      }
+    },
+    "import-tree": {
+      "locked": {
+        "lastModified": 1751270547,
+        "narHash": "sha256-crsdw+SVF+8JewH2npzM5iy2RowD3min24DqzCZX7uQ=",
+        "owner": "vic",
+        "repo": "import-tree",
+        "rev": "e5a363c65db721944ec29d42c210f33f7dee9808",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vic",
+        "repo": "import-tree",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1754214453,
@@ -14,8 +48,24 @@
         "url": "https://flakehub.com/f/NixOS/nixpkgs/0.1"
       }
     },
+    "nixpkgs-lib": {
+      "locked": {
+        "lastModified": 1751159883,
+        "narHash": "sha256-urW/Ylk9FIfvXfliA1ywh75yszAbiTEVgpPeinFyVZo=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "14a40a1d7fb9afa4739275ac642ed7301a9ba1ab",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
+        "dendrix": "dendrix",
         "nixpkgs": "nixpkgs"
       }
     }

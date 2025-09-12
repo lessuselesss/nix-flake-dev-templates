@@ -2,6 +2,7 @@
   description = "Ready-made templates for easily creating flake-driven environments";
 
   inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1";
+  inputs.dendrix.url = "github:vic/dendrix";
 
   outputs = inputs: let
     supportedSystems = [
@@ -324,9 +325,20 @@
           description = "Zig development environment";
         };
 
+        dendrix-default = {
+          path = ./dendrix-default;
+          description = "Dendrix default template with community modules and comprehensive tooling";
+        };
+
+        dendrix-vix = {
+          path = ./dendrix-vix;
+          description = "Minimal dendrix template using the vix layer system";
+        };
+
         # Aliases
         c = c-cpp;
         cpp = c-cpp;
+        dendrix = dendrix-default;
       };
     };
 }
