@@ -1,3 +1,6 @@
 .direnv/
 target
 result
+
+# Per-machine activation file written by claude-code/bootstrap.sh
+.nix-bootstrap-env.sh
